@@ -102,4 +102,7 @@ theme: cleanblog
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://amitapl@github.com/amitapl/techleadersgemscom
+  branch: gh-pages
+  token: $GITHUB_TOKEN
